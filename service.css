@@ -1,0 +1,46 @@
+.top-image{
+background-image: url(./assets/934f7bba-b9b5-4f7c-8308-b34522ae531a.jpeg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+width: 1810px;
+height: 784px;
+
+}
+
+.text-services{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    background-color: grey;
+    
+}
+.mid-image{
+    background-image: url(./assets/layanan.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 1810px;
+    height: 687px;
+
+}
+.mid-average-image{
+    background-image: url(./assets/tech.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 1810px;
+    height: 387px;
+}
+.copyright {
+    height: 50px;
+    background-color: black;
+}
+.copyright h1{
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    
+}
