@@ -9,7 +9,7 @@ body {
 .top-image {
   width: 100%;
   height: 1024px;
-  background: url("/Project-Team/assets/images/bgtopimage.jpg");
+  background: url("/assets/images/bgtopimage.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -71,7 +71,7 @@ body {
 .image-bottom {
   width: 100%;
   height: 259px;
-  background: url("/Project-Team/assets/images/cpt.jpg");
+  background: url("/assets/images/cpt.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
