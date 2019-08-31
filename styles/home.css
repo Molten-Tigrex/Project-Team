@@ -7,6 +7,13 @@
 .btn:hover {
   color: goldenrod;
 }
+a.nav-link:hover {
+  background-color: goldenrod;
+}
+a.nav-link {
+  margin: 10px;
+  font-size: 20px;
+}
 
 .row {
   width: 100%;
