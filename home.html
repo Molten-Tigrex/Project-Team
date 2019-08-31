@@ -5,15 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Home</title>
-  <link rel="stylesheet" href="styles/home.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="/Project/home.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="container-fluid">
-
-    <!-- Start Navigasi -->
+    <!-- navbar   -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -25,45 +22,77 @@
               <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="service.html">Services <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="about.html">Contact Us <span class="sr-only">(current)</span></a>
-            </li>
+                <a class="nav-link" href="service.html">Services <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                  <a class="nav-link" href="contact.html">Contact Us <span class="sr-only">(current)</span></a>
+                </li>
           </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
         </div>
       </nav>
-      <!-- End Navigasi -->
-      <!-- start image samping -->
-      <div class="top-image">
-        <div class="hero-image">
-          <h2>solution in developing mobile and website based applications.</h2>
-          <button type="button" class="btn btn-secondary">Learn More</button>
+    <!-- end navbar -->
+    <!-- top content -->
+  <div class="container-fluid bg-light">
+    <!-- <div class="container"> -->
+      <div class="row">
+          <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">We Are Ready</h5>
+                  <p class="card-text">solution in developing mobile and website based applications.</p>
+                  <a href="home.html" class="btn btn-dark">Learn More</a>
+                </div>
+              </div>
+            </div>
+      </div>
+      <section class="page-section" id="services">
+        <div class="container" id="serv-container">
+            <h1 class="text-center mt-5" style="margin: 20px; color: black;">Our Services</h1>
+          <hr class="divider my-4">
+          <div class="row" style="background: white; border-radius: 10%; padding: 20px;">
+            <div class="col-lg-3 col-md-6 mt-5 text-center">
+             <img class="img-services" src="assets/images/dir.png" alt="" style="width: 150px;">
+             <h3 class="text-center mt-4">Products Services</h3>
+            </div>
+            <div class="col-lg-3 col-md-6 mt-5 text-center">
+                <img class="img-services" src="/Project/assets/images/mobile.png" alt="" style="width: 150px;">
+                <h3 class="text-center mt-5">Mobile Apps</h3> 
+              </div>
+               <div class="col-lg-3 col-md-6 mt-5 text-center">
+                  <img class="img-services" src="assets/images/database.png" alt="" style="width: 150px;">
+                  <h3 class="text-center mt-5">Web Development</h3>  
+                </div>
+                 <div class="col-lg-3 col-md-6 mt-5 text-center">
+                    <img class="img-services" src="assets/images/gearsetting.png" alt="" style="width: 150px;">
+                    <h3 class="text-center mt-5">Bussiness Apps</h3>  
+                  </div>
+                  <button type="button" style="margin: auto;" class="btn btn-dark btn-lg"><a style="text-decoration: none; color: white;" href="service.html">Learn More</a></button>
+          </div>
         </div>
-      </div>
-      <!-- end image samping -->
-      <!-- ------------------------ -->
+      </section>
+      <section class="image-section mt-5">
+          <img src="/Project/assets/images/tech.png" class="img-fluid" alt="Responsive image">
+      </section>
+      <section class="image-to-contact mt-5">
+        <!-- <div class="container-fluid"> -->
+          <div class="image">
+              <a href="contact.html"><button id="btn-contact"type="button" class="btn btn-dark btn-lg" style="margin: 0 auto;">Contact Us</button></a>
+          </div>
+        <!-- </div> -->
 
-      <!-- start main info -->
-      <div class="main-info">
-        <h1>Our Services</h1>
-          <img src="assets/images/ourservices.png" alt="">
-          <button type="button" class="btn btn-secondary btn-lg"><a href="service.html">Learn More</a></button>
-      </div>
-      <!-- end main info -->
-
-      <!-- start tech -->
-      <div class="tech-use">
-        <img src="assets/images/tech.png" alt="">
-      </div>
-      <!-- end tech -->
-      <div class="image-bottom">
-          <button type="button" class="btn btn-secondary btn-lg"><a href="about.html">Contact with Us</a></button>
-
-      </div>
-      <div class="footer">
-        <p>Copyright &copy; 2019</p>
-      </div>
+      </section>
+      
+      <!-- Footer -->
+    <div class="footer">
+      <h2>Copyright &copy; 2019</h2><br>
+      <h2>Team Molten Tigrex</h2>
     </div>
+
+  <!-- </div> -->
+</div>
 </body>
 </html>
